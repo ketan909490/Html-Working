@@ -28,10 +28,19 @@
             height: 600px;
             width: 1263px;
         }
-
+        
         .topnav {
             overflow: hidden;
-
+            
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            /* padding: 14px 16px; */
+            text-decoration: none;
+            font-size: 20px;
         }
 
         a.k1 {
@@ -41,7 +50,6 @@
             padding: 5px 36px;
             text-decoration: none;
             margin-top: 20px;
-            /* margin-left: 53px; */
             font-size: 20px;
             font-family: sans-serif;
         }
@@ -117,6 +125,7 @@
             display: none;
         }
 
+
         @media screen and (max-width: 600px) {
             .topnav a:not(:first-child) {
                 display: none;
@@ -161,14 +170,14 @@
                             <div>
                                 <a class="name" href="#"><b>Infinite Loop</b></a>
                             </div>
-                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                                <i class="fa fa-bars"></i>
-                            </a>
                             <a class="k1" href="#home">Home</a>
                             <a class="k1" href="#news">What We Do</a>
                             <a class="k1" href="#contact">Testimonials</a>
                             <a class="k1" href="#about">Gallery</a>
                             <a class="k1" href="#about">Contact</a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
